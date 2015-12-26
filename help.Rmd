@@ -1,0 +1,18 @@
+---
+title: "DataProduct Documentation"
+author: "Vasily Vinogradov"
+date: "December 26, 2015"
+output: html_document
+---
+This application is built to demonstrate shiny app functionality. It is basically linear regression project. source data is standard mtcars data set. We build a linear regression model with 3 variables:
+
+* Q Sec
+* Car weight
+* Transmission type
+
+You can change input variables on left pane, and you can see results on right pane:
+
+*Expected value for miles per gallon
+*Plot that demonstrates predicted value vs training data.
+
+
