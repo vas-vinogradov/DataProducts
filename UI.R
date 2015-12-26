@@ -27,9 +27,10 @@ shinyUI
       mainPanel
       (
         h1("MPG prediction"),
-        helpText(   a("Click Here for help",href="help.html",target="_blank") ),
         verbatimTextOutput('mpg'),
-        plotOutput("Plot")
+        plotOutput("Plot"),
+        helpText(a("Documentation",href="https://github.com/vas-vinogradov/DataProducts/blob/master/help.Rmd",target="_blank") ),
+        helpText(a("Github source",href="https://github.com/vas-vinogradov/DataProducts/",target="_blank") )
       )
     )
 )
